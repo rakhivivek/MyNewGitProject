@@ -2,12 +2,8 @@ package testng.testing;
 
 import org.testng.annotations.Test;
 
-public class TestngPractice1 {
+public class TC001  {
 
-	@Test
-	public void openBrowser() {
-	System.out.println("open browser");
-	}
 	@Test
 	public void openUrl() {
 	System.out.println("open url");
@@ -19,10 +15,6 @@ public class TestngPractice1 {
 	@Test
 	public void verifyProduct() {
 	System.out.println("verify product");
-	}
-	@Test
-	public void closeBrowser() {
-	System.out.println("close browser");
 	}
 
 }
